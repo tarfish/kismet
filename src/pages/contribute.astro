@@ -1,0 +1,76 @@
+---
+import Layout from './../layouts/Layout.astro';
+import '../css/custom.css';
+import Navigation from '../pages/navigation.astro';
+import Footer from '../pages/footer.astro';
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <Layout title="Contribute"></Layout>
+    </head>
+    <style is:global>
+    </style>
+    <Navigation />
+    <body>
+        <h1>Contributing to Kismet Hub</h1>
+        <br>
+        <h3>How to Contribute:</h3>
+        <p>Contributors really help keep Kismet Hub alive! Here are some ways you can help:</p>
+        <br>
+        <ul class="list-disc">
+            <li><p>Report bugs or issues</p></li>
+            <li><p>Submit feature requests</p></li>
+            <li><p>Improve documentation</p></li>
+            <li><p>Contribute code via pull requests</p></li>
+        </ul>
+        <br>
+        <h3>Getting Started</h3>
+        <p>To get started, please fork our repository on GitHub and clone it to your own device. Here's a guide on adding more guides to the Kismet Hub!</p>
+        <h4>Step 1: Make a new Astro file for the guide.</h4>
+        <p>Preferrably called the guide name, for example, the HTML guide is called "html.astro".</p>
+        <img class="" src="/src/images/guides folder.png" alt="folder to add guide in" />
+        <h4>Step 2: Add the frontmatter to the top of the file.</h4>
+        <p>Make sure to import the Layout, Navigation, Footer, and custom.css like so:</p>
+        <div class="rounded-lg bg-black p-4 mb-4 text-white">
+            <code>
+                ---<br>
+                import Layout from '../../layouts/Layout.astro';<br>
+                import '../../css/custom.css';<br>
+                import Navigation from '../../pages/navigation.astro';<br>
+                import Footer from '../../pages/footer.astro';<br>
+                ---
+            </code>
+        </div>
+        <h4>Step 3: Add the HTML structure.</h4>
+        <p>Make sure to add the HTML structure like this:</p>
+        <div class="rounded-lg bg-black p-4 mb-4 text-white">
+            <code>
+                &lt;html lang="en"&gt;<br>
+                &nbsp;&nbsp;&lt;head&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset="utf-8" /&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="icon" type="image/svg+xml" href="/favicon.svg" /&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="viewport" content="width=device-width" /&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="generator" content={Astro.generator} /&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;Layout title="GUIDE NAME"&gt;&lt;/Layout&gt;<br>
+                &nbsp;&nbsp;&lt;/head&gt;<br>
+                &nbsp;&nbsp;&lt;style is:global&gt;<br>
+                &nbsp;&nbsp;&lt;/style&gt;<br>
+                &nbsp;&nbsp;&lt;Navigation /&gt;<br>
+                &nbsp;&nbsp;&lt;body&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;...YOUR CONTENT HERE...<br>
+                &nbsp;&nbsp;&lt;/body&gt;<br>
+                &nbsp;&nbsp;&lt;Footer /&gt;<br>
+                &lt;/html&gt;
+            </code>
+        </div>
+        <h4>Step 4: Add your content!</h4>
+        <p>Looking at the repository of this is highly recommended so that you can know others have made their guides.</p>
+        <br><br><br>
+    </body>
+    <Footer />
+</html>

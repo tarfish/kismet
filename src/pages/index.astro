@@ -1,5 +1,8 @@
 ---
-
+import '../css/custom.css';
+import Navigation from './navigation.astro';
+import Layout from '../layouts/Layout.astro';
+import Footer from './footer.astro';
 ---
 
 <html lang="en">
@@ -8,9 +11,15 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<Layout title="Home"></Layout>
 	</head>
+	<style is:global>
+	</style>
+	<Navigation />
 	<body>
-		<h1>Astro</h1>
+		<h1>Kismet Hub</h1>
+		<br>
+		<p>Your place for everything related to code!</p>
 	</body>
+	<Footer />
 </html>

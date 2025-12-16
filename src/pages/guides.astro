@@ -1,0 +1,29 @@
+---
+import Layout from './../layouts/Layout.astro';
+import '../css/custom.css';
+import Navigation from '../pages/navigation.astro';
+import Footer from '../pages/footer.astro';
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <Layout title="Guides"></Layout>
+    </head>
+    <style is:global>
+    </style>
+    <Navigation />
+    <body>
+        <h1>Guides</h1>
+        <p>List of the coolest guides :DD</p>
+        <br>
+        <br>
+        <ul>
+            <li><a href="../guides/html/"><p>HTML</p></a></li>
+        </ul>
+    </body>
+    <Footer />
+</html>

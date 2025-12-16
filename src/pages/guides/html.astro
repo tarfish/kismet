@@ -1,0 +1,44 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import '../../css/custom.css';
+import Navigation from '../../pages/navigation.astro';
+import Footer from '../../pages/footer.astro';
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <Layout title="HTML"></Layout>
+    </head>
+    <style is:global>
+    </style>
+    <Navigation />
+    <body>
+        <h1>HTML Guide</h1>
+        <br>
+        <h3>What is HTML?</h3>
+        <p>HTML, also known as HyperText Markup Language is the most basic langiage for making websites!</p>
+        <p>It uses "tags" to define elements on the site.</p>
+        <br>
+        <h3>Basic Structure of an HTML Document</h3>
+        <div class="rounded-lg bg-black p-4 mb-4 text-white">
+            <code>
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html lang="en"&gt;<br>
+                &lt;head&gt;<br>
+                &nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;<br>
+                &nbsp;&nbsp;&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br>
+                &nbsp;&nbsp;&lt;title&gt;Document Title&lt;/title&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;body&gt;<br>
+                &nbsp;&nbsp;&lt;h1&gt;Hello World&lt;/h1&gt;<br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;
+            </code>
+        </div>
+    </body>
+    <Footer />
+</html>
