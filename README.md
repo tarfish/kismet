@@ -1,43 +1,15 @@
-# Astro Starter Kit: Minimal
+# Kismet Hub
+(https://kismetclub.tech/)
+<br>
+this is a project designed to help new people trying to learn programmming with the simple idea that it is made by programmers, for programmers (mainly created for a local hackclub in dubai, it's still a wip though!)
+<br><br>
+it works by having people add pages to this site with guides on various different things that a programmer would need to learn with the idea that instead of looking at long tutorials or docs, it would be much easier to just learn it from fellow coders.
 
-```sh
-npm create astro@latest -- --template minimal
-```
+# Created with:
+this project was created with [astro](https://astro.build/) and deployed with [vercel](https://vercel.com/).
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+# Struggles:
+trying to make the folder structure and the repository perfect and easy to understand so that anyone could easily figure out how to add more pages was quite a struggle, but in the end it paid off!
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+# What I Learned:
+i learned about removing spaghetti code :)
