@@ -1,4 +1,6 @@
 # Kismet Hub
+![hackatime badge](https://hackatime-badge.hackclub.com/U081D39L4MD/kismet)
+<br>
 (https://kismetclub.tech/)
 <br>
 this is a project designed to help new people trying to learn programmming with the simple idea that it is made by programmers, for programmers (mainly created for a local hackclub in dubai, it's still a wip though!)
